@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Channels;
 
 namespace DegerVeReferansTipler
 {
@@ -25,6 +26,8 @@ namespace DegerVeReferansTipler
             // STACK : Yukarıda belirtilen değer tipindeki veriler ile değişken tanımlandığında bu değişkenin değeri RAM’in Stack bellek bölgesinde tutulur. Mikroişlemciler ile veri çekilip yazılır.
             //HEAP : Heap’te stack bölgesi gibi RAM’deki hafıza alanlarından biridir. Referans tiplerinden biri ile değişken tanımlandığında, değişkenin değeri Heap bölgesinde tutulur. Bununla beraber Heap bölgesindeki bu değişkenin adresi ise Stack bölgesinde tutulur.
             //NOT : Referans tipinde bir değişkene bellekte yer ayırmak için “new” kullanılır. “new” deyimi, nesneleri oluşturmak yada daha önceden oluşturulmuş olan nesneleri çağırmak için kullanılır.
-        }
+            Console.WriteLine(  "Hakan AKÇAKAYA");
+
+        }         
     }
 }

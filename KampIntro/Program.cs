@@ -32,20 +32,20 @@ namespace KampIntro
             {
                 Console.WriteLine("EŞİTTİR GÖSTER");
             }
-            
-            //{
-               // Console.WriteLine("AZALIŞ GÖSTER");
-           // }
 
-           // if (sistemeGirisYapilmisMi == true)
-            //{
-                //Console.WriteLine("Kullanıcı ayarları butonu");
-           // }
-           // else
-           // {
-               // Console.WriteLine("Giriş yap butonu");
-            //}
-            //Console.WriteLine(kategorilerEtiketi);
+            {
+                Console.WriteLine("AZALIŞ GÖSTER");
+            }
+
+            if (sistemeGirisYapilmisMi == true)
+            {
+                Console.WriteLine("Kullanıcı ayarları butonu");
+            }
+            else
+            {
+                Console.WriteLine("Giriş yap butonu");
+            }
+            Console.WriteLine(kategorilerEtiketi);
 
         }
     }
